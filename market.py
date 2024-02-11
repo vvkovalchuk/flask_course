@@ -8,3 +8,4 @@ def hello_world():
 @app.route('/about/<username>')
 def about_page(username: str):
     return f'<h1>This is about page of {username}</h1>'
+
